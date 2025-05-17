@@ -89,3 +89,7 @@
 // true
 // null == 0
 // false
+
+
+const a  = "a".charCodeAt(0)
+console.log(a);
