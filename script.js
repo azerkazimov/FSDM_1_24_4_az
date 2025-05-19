@@ -93,3 +93,21 @@
 
 const a  = "a".charCodeAt(0)
 console.log(a);
+
+
+let s = new String("string")
+
+
+let oddCount  = 0;
+for (let i = 10; i <= 20; i++) {
+    if (i % 2 === 1) {
+        console.log(i)
+    }
+}
+
+for (let i = 1; i <= 5; i++) {
+    for (let a = 1; a <= 10; a++) {
+        console.log(`${i} x ${a} = ${i*a}`)
+    }
+}
+

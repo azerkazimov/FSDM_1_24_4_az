@@ -4,7 +4,7 @@
 
 // Binar (ikili) plus operatoru sətirləri birləşdirir və ya ədədləri toplayır
 10 + '5';
-'some' + 'text';
+console.log('some' + " " +  'text')  // 'some text'
 
 // undefined ilə riyazi əməliyyatlar NaN (rəqəm deyil) qaytarır
 undefined + 1;
