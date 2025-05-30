@@ -111,3 +111,11 @@ for (let i = 1; i <= 5; i++) {
     }
 }
 
+
+function toCamelCase(str) {
+  return str.replace(/-([a-z])/g, ( match, letter) => letter.toUpperCase()); 
+}
+
+console.log(toCamelCase("my-variable-name"));
+
+
