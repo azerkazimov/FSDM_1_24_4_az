@@ -119,3 +119,5 @@ function toCamelCase(str) {
 console.log(toCamelCase("my-variable-name"));
 
 
+
+
