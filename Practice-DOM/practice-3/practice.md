@@ -15,6 +15,8 @@ class ImageSlider {
         this.createIndicators();
         this.showSlide(0);
     }
+
+    
     
     createSlider() {
         this.slider = document.createElement('div');
