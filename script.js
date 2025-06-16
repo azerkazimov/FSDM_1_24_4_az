@@ -118,6 +118,12 @@ function toCamelCase(str) {
 
 console.log(toCamelCase("my-variable-name"));
 
+let user = {
+    name: "Veli",
+    age: 32,
+    email: ""
+} 
 
 
+localStorage.setItem("user", JSON.stringify(user))
 
